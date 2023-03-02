@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.social-btn {
+  display: none;
+}
+
+
+.show-buttons .social-btn {
+  display: block;
+}
+
+
+.container-card-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.container-card2 {
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 700px;
+}
+
+.card2 {
+  background-color: #f2cf61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 410px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+  box-shadow: 10px 0px 10px black;
+}
+
+.image-product {
+  width: 400px;
+}
+
+b {
+  color: rgb(255, 255, 255);
+  font-size: ;
+}
+
+.b2 {
+  color: black;
+}
+
+.card-title {
+  width: 300px;
+  background-color: black;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+ 
+}
+
+.card-text {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 20px;
+  
+}
+
+
+.card-text b {
+  font-size: 30px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.form-control {
+  font-size: 14px;
+  width: 40px;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+div.botones {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.btn-primary {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 14px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-success {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.alert-success {
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+#btn-pedido-whatsapp {
+  background-color: black;
+  margin: 10px;
+}
+
+@media (max-width: 720px){
+  .container-card-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+}

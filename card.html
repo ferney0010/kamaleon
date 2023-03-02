@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="cards.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+</head>
+<body>
+
+
+    <div class="container-card-general">
+
+
+    <div class="container-card2">
+
+    <div class="card2">
+        <img class="image-product" src="img/sachet_kamaleon.png" alt="Producto X">
+        <div class="card-body">
+          <h5 class="card-title">Producto KamaLeón</h5>
+          <p class="card-text"> <b> $20000 </b></p>
+          <div class="form-group">
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" class="form-control" id="cantidad" value="1">
+          </div>
+
+          <div class="botones">
+
+            <button class="btn btn-primary" id="btn-agregar-carrito">Add +</button>
+            <button class="btn btn-success" id="btn-comprar">Comprar</button>
+
+          </div>
+
+         
+          <div id="alerta" class="alert alert-success mt-3" role="alert" style="display: none;">
+            Total: $<span id="total"></span>
+            <button class="btn btn-success float-end" id="btn-pedido-whatsapp">Enviar pedido por WhatsApp</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      
+      <script>
+const precio = 20000; // Precio del producto X
+const cantidadInput = document.getElementById("cantidad");
+const btnAgregarCarrito = document.getElementById("btn-agregar-carrito");
+const btnComprar = document.getElementById("btn-comprar");
+const alerta = document.getElementById("alerta");
+const totalSpan = document.getElementById("total");
+const btnPedidoWhatsapp = document.getElementById("btn-pedido-whatsapp");
+let cantidad = 1;
+let totalCompra = 0;
+
+
+function actualizarTotal() {
+  const totalX = cantidad * precio;
+  const totalY = cantidadY * precioY;
+  totalCompra = totalX + totalY;
+  totalSpan.innerText = totalCompra;
+  totalSpanY.innerText = totalCompra;
+}
+
+
+function mostrarAlerta() {
+  actualizarTotal();
+  alerta.style.display = "block";
+}
+
+function enviarPedidoPorWhatsapp() {
+  const total = cantidad * precio;
+  const mensaje = `Hola, quiero comprar ${cantidad} unidades de Producto KAMALEÓN por un total de $${total}.`;
+  const enlace = `https://wa.me/+573196061080?text=${encodeURIComponent(mensaje)}`;
+  window.open(enlace, "_blank");
+}
+
+cantidadInput.addEventListener("input", actualizarTotal);
+btnAgregarCarrito.addEventListener("click", function() {
+  cantidad++;
+  cantidadInput.value = cantidad;
+  actualizarTotal();
+});
+btnComprar.addEventListener("click", mostrarAlerta);
+btnPedidoWhatsapp.addEventListener("click", enviarPedidoPorWhatsapp);
+
+      </script>
+
+
+<div class="container-card">
+    <div class="card">
+      <img class="image-product" src="img/sachet_kamaleon.png" alt="Producto Y">
+      <div class="card-body">
+        <h5 class="card-title">KAMALEÓN 500ml</h5>
+        
+        <p class="card-text"> <b> $25000 </b></p>
+        <div class="form-group">
+          <label for="cantidad-y">Cantidad:</label>
+          <input type="number" class="form-control" id="cantidad-y" value="1">
+        </div>
+        <div class="botones">
+          <button class="btn btn-primary" id="btn-agregar-carrito-y">Add +</button>
+          <button class="btn btn-success" id="btn-comprar-y">Comprar</button>
+        </div>
+        <div id="alerta-y" class="alert alert-success mt-3" role="alert" style="display: none;">
+          Total: $<span id="total-y"></span>
+          <button class="btn btn-success float-end" id="btn-pedido-whatsapp-y">Enviar pedido por WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+  const precioY = 25000; // Precio del producto Y
+  const cantidadInputY = document.getElementById("cantidad-y");
+  const btnAgregarCarritoY = document.getElementById("btn-agregar-carrito-y");
+  const btnComprarY = document.getElementById("btn-comprar-y");
+  const alertaY = document.getElementById("alerta-y");
+  const totalSpanY = document.getElementById("total-y");
+  const btnPedidoWhatsappY = document.getElementById("btn-pedido-whatsapp-y");
+  let cantidadY = 1;
+  let totalCompraY = 0;
+
+
+  
+  function actualizarTotalY() {
+    const totalX = cantidad * precio;
+  const totalY = cantidadY * precioY;
+  totalCompra = totalX + totalY;
+  totalSpan.innerText = totalCompra;
+  totalSpanY.innerText = totalCompra;
+  }
+  
+  function mostrarAlertaY() {
+    actualizarTotalY();
+    alertaY.style.display = "block";
+  }
+  
+  function enviarPedidoPorWhatsappY() {
+    const total = cantidadY * precioY;
+    const mensaje = `Hola, quiero comprar ${cantidadY} unidades de Producto kamaleon 500ml por un total de $${total}.`;
+    const enlace = `https://wa.me/+573196061080?text=${encodeURIComponent(mensaje)}`;
+    window.open(enlace, "_blank");
+  }
+  
+  cantidadInputY.addEventListener("input", actualizarTotalY);
+  btnAgregarCarritoY.addEventListener("click", function() {
+    cantidadY++;
+    cantidadInputY.value = cantidadY;
+    actualizarTotalY();
+  });
+  btnComprarY.addEventListener("click", mostrarAlertaY);
+  btnPedidoWhatsappY.addEventListener("click", enviarPedidoPorWhatsappY);
+  </script>
+  
+
+  <div class="container-card">
+    <div class="card">
+      <img class="image-product" src="img/sachet_kamaleon.png" alt="Producto Z">
+      <div class="card-body">
+        <h5 class="card-title">KAMALEÓN 500ml</h5>
+        
+        <p class="card-text"> <b> $25000 </b></p>
+        <div class="form-group">
+          <label for="cantidad-z">Cantidad:</label>
+          <input type="number" class="form-control" id="cantidad-z" value="1">
+        </div>
+        <div class="botones">
+          <button class="btn btn-primary" id="btn-agregar-carrito-z">Add +</button>
+          <button class="btn btn-success" id="btn-comprar-z">Comprar</button>
+        </div>
+        <div id="alerta-z" class="alert alert-success mt-3" role="alert" style="display: none;">
+          Total: $<span id="total-z"></span>
+          <button class="btn btn-success float-end" id="btn-pedido-whatsapp-z">Enviar pedido por WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  const precioZ = 25000; // Precio del producto Z
+  const cantidadInputZ = document.getElementById("cantidad-z");
+  const btnAgregarCarritoZ = document.getElementById("btn-agregar-carrito-z");
+  const btnComprarZ = document.getElementById("btn-comprar-z");
+  const alertaZ = document.getElementById("alerta-z");
+  const totalSpanZ = document.getElementById("total-z");
+  const btnPedidoWhatsappZ = document.getElementById("btn-pedido-whatsapp-z");
+  let cantidadZ = 1;
+  
+  function actualizarTotalZ() {
+    const total = cantidadZ * precioZ;
+    totalSpanZ.innerText = total;
+  }
+  
+  function mostrarAlertaZ() {
+    actualizarTotalZ();
+    alertaZ.style.display = "block";
+  }
+  
+  function enviarPedidoPorWhatsappZ() {
+    const total = cantidadZ * precioZ;
+    const mensaje = `Hola, quiero comprar ${cantidadZ} unidades de Producto kamaleon 500ml por un total de $${total}.`;
+    const enlace = `https://wa.me/+573196061080?text=${encodeURIComponent(mensaje)}`;
+    window.open(enlace, "_blank");
+  }
+  
+  cantidadInputZ.addEventListener("input", actualizarTotalZ);
+  btnAgregarCarritoZ.addEventListener("click", function() {
+    cantidadZ++;
+    cantidadInputZ.value = cantidadZ;
+    actualizarTotalZ();
+  });
+  btnComprarZ.addEventListener("click", mostrarAlertaZ);
+  btnPedidoWhatsappZ.addEventListener("click", enviarPedidoPorWhatsappZ);
+  </script>
+
+
+
+
+</div>
+      
+      
+
+</body>
+</html>

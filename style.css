@@ -1,0 +1,1165 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap");
+
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#total {
+  color: #000;
+}
+
+#total-z {
+  color: #000;
+}
+
+#total-y {
+  color: #000;
+}
+
+.parrafo3 {
+  color: #000;
+  font-size: 30px;
+  padding: 50px;
+  margin: 50px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+ 
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.terminos-condiciones {
+  color: #000;
+  text-decoration: underline;
+}
+
+/*editar enlace whatsapp*/
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.whatsapp-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-btn a i {
+  margin-right: 10px;
+}
+
+.logo-whatsapp {
+  width: 70px;
+}
+
+/*editar enlace facebook*/
+
+.facebook-btn {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.facebook-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.facebook-btn a i {
+  margin-right: 10px;
+}
+
+.logo-facebook {
+  width: 70px;
+}
+
+/*editar enlace instagram*/
+
+
+.instagram-btn {
+  position: fixed;
+  bottom: 200px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.instagram-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.instagram-btn a i {
+  margin-right: 10px;
+}
+
+.logo-instagram {
+  width: 70px;
+}
+
+/*editar enlace twitter*/
+
+
+.twitter-btn {
+  position: fixed;
+  bottom: 280px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.twitter-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.twitter-btn a i {
+  margin-right: 10px;
+}
+
+.logo-twitter {
+  width: 70px;
+}
+
+
+.logo-image {
+  width: 300px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-decoration: underline;
+  z-index: 999;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-principal {
+  width: 300px;
+}
+ 
+
+span {
+  color: #f2cf61;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.toggle {
+  font-size: 2rem;
+  color: #000000;
+  cursor: pointer;
+  display: none;
+}
+
+.titulo {
+  padding-left: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+p.header-content {
+  padding: 20px;
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 3px 1px black;
+}
+
+.btn-1 {
+  background-color: rgb(0, 0, 0, .4);
+  padding: 10px;
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+
+.titulo-seccion-productos{
+  background-color: #f2cf61;
+  text-align: center;
+  font-size: 60px;
+  padding: 40px ;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-2{
+  background-color: rgb(0, 0, 0, .4);
+  margin: 10px;
+  padding: 10px;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+/*editar card*/
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+
+.titulo-2 {
+  width: 100%;
+  background-color: #f2cf61;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 100px;
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1px 1px 1px white;
+}
+
+.image-card {
+  width: 100%;
+}
+
+.container {
+  width: 250px;
+  height: 380px;
+  background: transparent;
+  position: relative;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+  overflow: hidden;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f2cf61;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  transition: all ease 0.3s;
+}
+
+.nombre-producto {
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container::after,
+.container::before {
+  width: 100px;
+  height: 100px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  transition: 0.5s linear;
+}
+
+.container::after {
+  top: -20px;
+  left: -20px;
+  background-color: #f2cf61;
+  animation: animFirst 5s linear infinite;
+}
+
+.container::before {
+  background-color: #f2cf61;
+  top: 70%;
+  left: 70%;
+  animation: animSecond 5s linear infinite;
+  animation-delay: 3s;
+}
+
+.container:hover {
+  box-shadow: 0px 0px 10px rgba(0, 77, 32, 0.432);
+}
+
+.container:hover::after {
+  left: 80px;
+  transform: scale(1.2);
+}
+
+.container:hover::before {
+  left: -10px;
+  transform: scale(1.2);
+}
+
+
+
+/*configurar waves*/
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+
+
+
+
+p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(60deg, #ffffff 30%, #000000 70%);
+  color: white;
+}
+.logo {
+  width: 50px;
+  fill: white;
+  padding-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inner-header {
+  height: 65vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.content {
+  position: relative;
+  height: 0vh;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+
+/*editar seccion*/
+
+
+.parallax {
+  height: 500px;
+  background-image: url(img/fondowebcolor.jpg);
+ /* background-image: url('img/fondos-negros-degradados-marcos.png');*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+.container-22 {
+  position: relative;
+  top: 50px;
+}
+
+.titulo-parallax {
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-shadow: 2px 3px 1px  black;
+  text-transform: uppercase;
+  
+}
+
+.parrafo-parallax {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  padding: 50px 150px;
+  margin: 0 50px;
+  text-shadow: 2px 2px 2px  rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(10 px);
+  backdrop-filter: inherit;
+  border-radius: 20px;
+  
+}
+
+.parrafo2 {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  padding: 0px 10px;
+
+}
+
+.overlay {
+
+}
+
+/*editar seccion 2*/
+
+
+.parallax2 {
+  height: 600px;
+  background-image: url(img/Laboratorio-acreditado-1536x740.webp);
+ /* background-image: url('img/fondos-negros-degradados-marcos.png');*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+/*EDITAR FORMULARIO*/
+
+
+
+.container-formulario {
+    background-color: aqua;
+    font-family: "Montserrat", sans-serif;
+}
+
+.formulario p {
+  color: #000;
+  padding: 10px;
+}
+
+.terminos-condiciones {
+  font-weight: 800;
+}
+
+.formulario {
+  background-color: #000000;
+  padding: 50px;
+}
+
+.txt-titulo-form {
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+form {
+  background-color: #f2cf61;
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+input[type="submit"],
+input[type="reset"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #3e8e41;
+}
+
+button {
+  background-color: #000;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+
+/*seccion faq*/
+
+.faq {
+  font-family: "Montserrat", sans-serif;
+}
+
+.faq-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.faq-section h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.faq-section dl {
+  margin-bottom: 20px;
+}
+
+.faq-section dt {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-section dd {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+  h1.titulo {
+   padding: 0 0;
+
+  }
+  
+  .logo a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(60deg, #050000 30%, #ffffff 60%);
+}
+
+  .logo-principal {
+    width: 250px;
+  }
+  
+  span {
+    color: #f2cf61;
+  }
+
+  #total {
+    color: #000;
+  }
+
+
+  .btn-1 {
+    color: white;
+    padding: 0px;
+  
+  }
+
+
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 35px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .menu  a {
+  font-size: 12px;
+  display: none;
+ 
+  }
+
+  h2.titulo-2 {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .toggle {
+    font-size: 2rem;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .titulo {
+    padding-left: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  p.header-content {
+   
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 1px black;
+
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+  }
+
+  div.inner-header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 480px;
+    
+  }
+
+
+  .parrafo-parallax {
+    margin: 20px  20px;
+    height: 350px;
+    padding: 0 20px;
+  }
+ 
+
+  .titulo-parallax {
+    font-size: 35px;
+    text-align: center;
+  }
+
+
+  .parrafo2 {
+    font-size: 16px;
+   
+  }
+
+  .overlay {
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  body {
+    background-color: #f2cf61;
+  }
+
+  .parallax {
+    height: 450px;
+    background-image: url(img/fondovertical.jpg);
+   /* background-image: url('img/fondos-negros-degradados-marcos.png');*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    height: 600px;
+    background-image: url(img/Laboratorio-acreditado-1536x740.webp);
+   /* background-image: url('img/fondos-negros-degradados-marcos.png');*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .parrafo-parallax2 {
+    margin: 20px  20px;
+    height: 300px;
+    padding: 0 20px;
+    color:#000;
+  }
+
+  .parrafo3 {
+    color: #000;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    padding: 50px 10px;
+  }
+/*editar responsive cards*/
+
+h3.titulo-seccion-productos {
+  font-size: 30px;
+  margin: 10px 20px;
+}
+
+.card-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+
+}
+
+div.card {
+  width: 100%;
+  height: 400px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.image-card {
+  width: 100%;
+}
+
+.container {
+  width: 250px;
+  height: 380px;
+  background: transparent;
+  position: relative;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+  overflow: hidden;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f2cf61;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  border-radius: 10px;
+  transition: all ease 0.3s;
+}
+
+.nombre-producto {
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+/*editar responsive formulario*/
+
+
+.container-formulario {
+  font-family: "Montserrat", sans-serif;
+}
+
+.formulario {
+background-color: #000000;
+padding: 0 0px;
+margin: 0 0;
+}
+
+.txt-titulo-form {
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 30px;
+text-transform: uppercase;
+}
+
+form {
+background-color: #f2cf61;
+width: 90%;
+margin: 0 auto;
+padding: 40px;
+border-radius: 10px;
+}
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+padding: 10px;
+margin-bottom: 15px;
+border: none;
+border-radius: 5px;
+width: 100%;
+}
+input[type="submit"],
+input[type="reset"] {
+background-color: #000000;
+color: #fff;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+background-color: #3e8e41;
+}
+
+button {
+background-color: #000;
+padding: 10px;
+color: white;
+font-size: 20px;
+border-radius: 5px;
+}
+
+
+
+
+
+
+a.btn-1 {
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+/*editar footer*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+h3.titulos-footer {
+  font-size: 30px;
+}
+
+.titulos-footer {
+  padding: 20px 0;
+}
+
+
+*seccion faq*/
+
+.faq-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.faq-section h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.faq-section dl {
+  margin-bottom: 20px;
+}
+
+.faq-section dt {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.faq-section dd {
+  text-align: justify;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+/*boton whatsapp*/
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.whatsapp-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-btn a i {
+  margin-right: 10px;
+}
+
+.logo-whatsapp {
+  width: 50px;
+}
+
+
+/*editar enlace facebook*/
+
+.facebook-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.facebook-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.facebook-btn a i {
+  margin-right: 10px;
+}
+
+.logo-facebook {
+  width: 50px;
+}
+
+/*editar enlace instagram*/
+
+
+.instagram-btn {
+  position: fixed;
+  bottom: 140px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.instagram-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.instagram-btn a i {
+  margin-right: 10px;
+}
+
+.logo-instagram {
+  width: 50px;
+}
+
+/*editar enlace twitter*/
+
+
+.twitter-btn {
+  position: fixed;
+  bottom: 200px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.twitter-btn a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 50px;
+  font-size: 16px;
+  line-height: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
+.twitter-btn a i {
+  margin-right: 10px;
+}
+
+.logo-twitter {
+  width: 50px;
+}
+
+}
+
